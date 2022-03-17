@@ -5,50 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <h1 class="logo">
-            <span style="font-weight: 50; color: white ;">
-               Hélices
-           </span>
-           <span style="font-weight: 900;">
-               Clerici
-           </span>
-       </h1> 
-       <p class="logoGrafico">
-              <img src="./img/logo-blanco.png" alt="logo" class="logoGrafico">         
-       </p>
+    <main id="grilla">
 
-     
-   
-   <header> 
-       <ul class="header">
-            
+        
+               
+        <div class="logo">  <!-- item 1 -->
+            <picture class="logo-img">
+                <img src="../imagenes/logo-blanco.png" alt="logo" class="logoGrafico">         
+            </picture>     
+            <h1 class="logo-title">
+                <span style="font-weight: 50; color: white ;">
+                    Hélices
+                </span>
+                <span style="font-weight: 900;">
+                    Clerici
+                </span>
+            </h1> 
            
-           <li class="header__index">
-               <a class="header__index-link" href="../index.html">INICIO</a>
-           </li>
-           <li class="header__services">
-               <a class="header__services-link" href="../html/Servicios.html">SERVICIOS</a>
-           </li>
-           <li class="header__catalogue">
-               <a class="header__catalogue-link" href="../html/catalogo.html">CATALOGO</a>
-           </li>
-           <li class="header__filosofia">
-               <a class="header__filosofia-link" href="../html/filosofia.html">FILOSOFÍA</a>
-           </li>
-           <li class="header__history">
-               <a class="header__history-link" href="../html/historia.html">HISTORIA</a>
-           </li>
-           <li class="header__contact">
-               <a class="header__contact-link" href="../html/contacto.html">CONTACTO</a>
-           </li>
-       </ul> 
-                        
-    </header>
+        </div>
+
+
+    
+    
+        <header class="etiquetaHeader"> 
+            <ul class="header">
+                <li class="header__index">
+                    <a id="headerLink" href="../index.html">INICIO</a>
+                </li>
+                <li class="header__services">
+                    <a id="headerLink" href="../html/servicios.html">SERVICIOS</a>
+                </li>
+                <li class="header__catalogue">
+                    <a id="headerLink" href="../html/catalogo.html">CATALOGO</a>
+                </li>
+                <li class="header__filosofia">
+                    <a id="headerLink" href="../html/filosofia.html">FILOSOFÍA</a>
+                </li>
+                <li class="header__history">
+                    <a id="headerLink" href="../html/historia.html">HISTORIA</a>
+                </li>
+                <li class="header__contact">
+                    <a id="headerLink" href="../html/contacto.html">CONTACTO</a>
+                </li>
+            </ul>                 
+        </header>
+
+        
+
+
 
         <section class="inicioContacto"> <!--inicio principal-->
  
@@ -102,44 +110,12 @@
 
         <section class="footer"> <!-- footer -->
      
-            <ul class="footer__lista">
-                 
-                
-                <li class="header__index">
-                    <a class="header__index-link" href="./index.html">inicio</a>
-                </li>
-                <li class="header__services">
-                    <a class="header__services-link" href="./Servicios.html">servicios</a>
-                </li>
-                <li class="header__catalogue">
-                    <a class="header__catalogue-link" href="./catalogo.html">catalogo</a>
-                </li>
-       
-                <li class="header__contact">
-                    <a class="header__contact-link" href="./contacto.html">contacto</a>
-                </li>
-            </ul> 
-            <h1 class="logo">
-                <span style="font-weight: 50; color: white ;">
-                   Hélices
-               </span>
-               <span style="font-weight: 900;">
-                   Clerici
-               </span>
-           </h1> 
-           <p class="logoGrafico">
-                  <img src="./img/logo-blanco.png" alt="logo" class="logoGrafico">         
-           </p>
-
-           <p class="footer__rights">
-            Copyright 2012 - 2022 Hélices Clerici | Todos los derechos reservados | Hélices Clerici | Drops design.
-           </p>
-        </section>
-
-
-
-        
-
+            <section class="footer"> <!-- footer -->
+                <p class="footer__rights">
+                    Copyright 2012 - 2022 Hélices Clerici | Todos los derechos reservados | Hélices Clerici | Drops design.
+                </p>
+            </section> 
+    
     </main>
 
     
