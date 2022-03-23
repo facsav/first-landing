@@ -1,0 +1,23 @@
+.logo {
+  height: 7em;
+  grid-area: logo;
+  justify-self: start;
+  align-self: center;
+  display: flex;
+  flex-direction: row; }
+  .logo-title {
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    height: 3em; }
+  .logo-img {
+    width: 9em;
+    height: 5em; }
+
+.header {
+  height: 2em; }
+  .header__title {
+    height: 1em; }
+  .header__subtitle {
+    width: 100%; }
