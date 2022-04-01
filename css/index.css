@@ -42,7 +42,7 @@ body{
     "footer footer footer footer footer";
     grid-template-rows: 10vh 30vh 30vh 40vh 5vh ;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    background-image: url(../imagenes/foto\ avion.jpg);
+    background-image: url(../imagenes/fondo\ helice\ blanca.jpg);
     background-size:cover;
     background-attachment: fixed;
     width: 100%;

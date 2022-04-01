@@ -6,6 +6,50 @@
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+// MAPS MIXINS ETC
+
+
+
+// MAP
+
+$tamañosFont:(
+    xgrande: 5em,
+    grande: 4em,
+    mediano: 3em,
+    chico: 1.5em,
+    xchico:1em,
+
+);
+
+
+$fondos:(
+    grisOscuro:rgb(83, 83, 83) ,
+    gris: rgb(224, 224, 224),
+    azul: rgba(49, 94, 147, 1) ,
+    blanco:  white
+
+);
+
+@each $var,$val in $fondos {
+    .color-#{$var}{
+        background-color: #{$val};
+    }
+}
+
+
+    
+
+
+// MIXIN
+@mixin flex ($direc , $justify, $wrap){
+    display: flex;
+    flex-direction: $direc;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    
+}
+
+
 body{
     max-width: 1920px;
     max-height: 1080px;
@@ -62,6 +106,7 @@ $fuente:'Montserrat', sans-serif;
 }
 
 .header2{
+    @include flex (row,center ,wrap );
     width: 100%;
     display: flex;
     flex-direction: row ;
@@ -70,6 +115,7 @@ $fuente:'Montserrat', sans-serif;
     list-style-type: none;
     justify-content:flex-end;
 }
+
 
 .headerLogoInicio2{
     width: 100%;
@@ -120,7 +166,7 @@ $fuente:'Montserrat', sans-serif;
         padding: 20px;    
     }
     &__img1{
-        background-color:$colorFondo2;
+        background-color: map-get($fondos, gris);
         height: 375px;
         width: 98%;
         float: right;
@@ -162,7 +208,7 @@ $fuente:'Montserrat', sans-serif;
         }
     }
     &__img2{
-        background-color: rgb(83, 83, 83);
+        background-color: map-get($fondos, grisOscuro);
         height: 390px;
         width: 98%;
         float: left;
@@ -214,7 +260,7 @@ $fuente:'Montserrat', sans-serif;
         }
     }
     &__img3{
-        background-color: rgb(224, 224, 224);
+        background-color: map-get($fondos, gris);
         height: 375px;
         width: 98%;
         float: right;
@@ -261,7 +307,7 @@ $fuente:'Montserrat', sans-serif;
         }
     }
     &__img4{
-        background-color: rgb(83, 83, 83);
+        background-color: map-get($fondos, grisOscuro);
         height: 390px;
         width: 98%;
         float: left;
@@ -322,7 +368,7 @@ $fuente:'Montserrat', sans-serif;
         font-size: 1.5em;
         font-family: white;
         margin-left: 1em;
-        color: red;
-        color: blue;
     }
 }
+
+

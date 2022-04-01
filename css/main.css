@@ -5,6 +5,18 @@
   box-sizing: border-box;
   /* font-family: Arial, Helvetica, sans-serif; */ }
 
+.color-grisOscuro {
+  background-color: #535353; }
+
+.color-gris {
+  background-color: #e0e0e0; }
+
+.color-azul {
+  background-color: #315e93; }
+
+.color-blanco {
+  background-color: white; }
+
 body {
   max-width: 1920px;
   max-height: 1080px;
@@ -39,6 +51,10 @@ body {
   margin-right: 1em; }
 
 .header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -254,6 +270,4 @@ body {
     color: white;
     font-size: 1.5em;
     font-family: white;
-    margin-left: 1em;
-    color: red;
-    color: blue; }
+    margin-left: 1em; }
