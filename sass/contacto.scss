@@ -1,0 +1,94 @@
+// vars
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+$tamañosFont:(
+    xgrande: 5em,
+    grande: 4em,
+    mediano: 3em,
+    chico: 1.5em,
+    xchico:1em,
+
+);
+
+$fuente: Arial, Helvetica, sans-serif;
+
+
+$fondos:(
+    grisOscuro:rgb(83, 83, 83) ,
+    gris: rgb(224, 224, 224),
+    azul: rgba(49, 94, 147, 1) ,
+    blanco:  white
+
+);
+
+@mixin flex ($direc , $justify, $wrap) {
+    display: flex;
+    flex-direction: $direc;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+
+}
+
+
+.bodyIndex{
+    max-width: 1920px;
+    max-height: 1080px;
+    font-size: 62.5%;
+    background-image: url(../imagenes/juan-pintura.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+
+
+
+}
+
+.mascara{
+    background-color: rgba(0, 0, 0, 0.575);
+
+}
+
+.nav{
+    height: 20vh
+}
+
+
+
+.logo{
+    @include flex(row,center ,wrap );
+    &-title{
+        color: white;
+        font-family: $fuente
+    }
+    &__container{
+        width: 9em;
+        height: 5em;
+        &-grafico{
+            width: 9em;
+            height: 5em;
+        }
+    }
+
+}
+
+.header{
+    @include flex (row,flex-end,wrap);
+    font-family: $fuente;
+
+
+}
+
+
+.contacto-parrafos{
+    height: 76.8vh;
+}
+
+

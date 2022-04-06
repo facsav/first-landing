@@ -271,3 +271,49 @@ body {
     font-size: 1.5em;
     font-family: white;
     margin-left: 1em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.bodyIndex {
+  max-width: 1920px;
+  max-height: 1080px;
+  font-size: 62.5%;
+  background-image: url(../imagenes/juan-pintura.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.mascara {
+  background-color: rgba(0, 0, 0, 0.575); }
+
+.nav {
+  height: 20vh; }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .logo-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; }
+  .logo__container {
+    width: 9em;
+    height: 5em; }
+    .logo__container-grafico {
+      width: 9em;
+      height: 5em; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.contacto-parrafos {
+  height: 76.8vh; }
