@@ -278,7 +278,71 @@ body {
   text-decoration: none;
   box-sizing: border-box; }
 
-.bodyIndex {
+.inicioFilo {
+  height: 75vh; }
+
+.bodyFilo {
+  max-width: 1920px;
+  max-height: 1080px;
+  font-size: 62.5%;
+  background-color: #2e2e2e;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+#headerLink {
+  color: white;
+  margin-right: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style: none; }
+
+.etiquetaHeader {
+  grid-area: header;
+  align-self: flex-start;
+  margin-top: 1.5em;
+  margin-right: 1em;
+  text-decoration: none; }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+  .logo-title {
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    height: 3em;
+    margin-top: 0.2em; }
+  .logo__container {
+    width: 9em;
+    height: 5em; }
+    .logo__container-grafico {
+      width: 100%;
+      height: 100%; }
+
+.filo {
+  color: white; }
+  .filo-title {
+    font-size: 5em; }
+  .filo-info {
+    font-size: 1.8em;
+    font-weight: 600; }
+  .filo-list {
+    font-size: 1.5em;
+    font-weight: 100; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.bodyContacto {
   max-width: 1920px;
   max-height: 1080px;
   font-size: 62.5%;
@@ -288,7 +352,7 @@ body {
   background-position: center; }
 
 .mascara {
-  background-color: rgba(0, 0, 0, 0.575); }
+  background-color: rgba(0, 0, 0, 0.699); }
 
 .nav {
   height: 20vh; }
@@ -296,24 +360,81 @@ body {
 .logo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap; }
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 3vh; }
   .logo-title {
     color: white;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    height: 3em;
+    margin-top: 0.2em; }
   .logo__container {
     width: 9em;
     height: 5em; }
     .logo__container-grafico {
-      width: 9em;
-      height: 5em; }
+      width: 100%;
+      height: 100%; }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: end;
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif; }
 
-.contacto-parrafos {
-  height: 76.8vh; }
+.inicio {
+  width: 100%; }
+  .inicio__txt {
+    font-size: 1.9em; }
+
+#headerLink {
+  color: white;
+  margin-right: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style: none; }
+
+.etiquetaHeader {
+  grid-area: header;
+  align-self: flex-start;
+  margin-top: 1.5em;
+  margin-right: 1em;
+  text-decoration: none; }
+
+.contactoInicio {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2em;
+  height: 75vh; }
+
+.footerContacto {
+  color: white;
+  height: 5vh;
+  font-size: 1.2em; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.bodyHist {
+  max-width: 1920px;
+  max-height: 1080px;
+  font-size: 62.5%;
+  background-image: url(../imagenes/historia.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.hist-title {
+  font-size: 5em;
+  color: white; }
+
+.hist-parrafo {
+  font-size: 1.8em;
+  font-weight: 600; }

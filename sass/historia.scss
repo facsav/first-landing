@@ -1,0 +1,75 @@
+// vars
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+$tamañosFont:(
+    xgrande: 5em,
+    grande: 4em,
+    mediano: 3em,
+    chico: 1.5em,
+    xchico:1em,
+
+);
+
+$fuente: Arial, Helvetica, sans-serif;
+$fuentePag: 'Montserrat', sans-serif;
+
+
+$fondos:(
+    grisOscuro:rgb(83, 83, 83) ,
+    gris: rgb(224, 224, 224),
+    azul: rgba(49, 94, 147, 1) ,
+    blanco:  white
+
+);
+
+@mixin flex ($direc , $justify, $wrap) {
+    display: flex;
+    flex-direction: $direc;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+
+}
+
+
+
+.bodyHist{
+    max-width: 1920px;
+    max-height: 1080px;
+    font-size: 62.5%;
+    background-image: url(../imagenes/historia.jpg);
+    
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+
+
+
+}
+
+.hist{
+    &-title{
+        font-size: 5em;
+        color: white;
+    }
+    &-parrafo{
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+
+}
+.histFoto{
+    &__container{
+        
+
+        &-jpeg{
+            // position:fixed;
+        }
+    }
+}

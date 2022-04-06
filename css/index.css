@@ -1042,8 +1042,7 @@ align-content:center;
 
 .bodyIndex{
     font-size: 62.5% !important;  
-    /* background-image: url(../imagenes/foto\ avion.jpg); */
-    background-color: black;
+    background-image: url(../imagenes/foto\ avion.jpg);
     background-size:cover;
     background-attachment: fixed;
     width: 100%;
