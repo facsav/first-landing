@@ -133,7 +133,7 @@ margin-bottom: 0.3em;
 
 .inicio__varios-botonLook{
 justify-content:center;
-width: 15em;
+width: 0em;
 height: 3em;
 background-color: #315e93; color: white;
 border: none;
@@ -162,7 +162,7 @@ font-size: 1.5em;
 }
 
 .certify__head__table{
-        display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around ;
     align-content: center;    
@@ -1138,10 +1138,13 @@ padding-top: 12em;
 
 .botonLook{
     text-decoration: none;
+
+
 }
 
 .botonReserve{
     text-decoration: none;
+
 }
 
 
@@ -1154,3 +1157,59 @@ padding-top: 12em;
     color: var(--dia);
     font-size: 1.2em;
 }
+
+.img-fluid{
+    height: 0.5rem;
+    width: 10rem;
+
+}
+
+
+.navbar-brand > img {
+    width: 20rem; }
+  
+  .contenedorNav {
+    height: 6rem; }
+  
+  .bodyCatalogo {
+    max-width: 1920px;
+    max-height: 1080px;
+    font-size: 62.5%;
+    background-color: #2e2e2e;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+  
+  .header-main {
+    max-height: 100vh; }
+  
+  .header2 {
+    height: auto; }
+  
+  #mainNav {
+    height: 1.5rem; }
+  
+  .navbar-toggler {
+    color: white; }
+  
+  #headerLink2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase; }
+  
+  .header__services2:hover, .header__index2:hover, .header__catalogue2:hover, .header__filosofia2:hover, .header__contact2:hover, .header__history2:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 0.2rem;
+    transition: .5s; }
+  
+  @media screen and (max-width: 767px) {
+    .contenedorNav {
+      height: 12rem; }
+    .bodyCatalogo {
+      font-size: 55.5%; }
+    .navbar-brand > img {
+      width: 15rem; } }

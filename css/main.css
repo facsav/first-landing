@@ -352,6 +352,7 @@ body {
   background-position: center; }
 
 .mascara {
+  height: auto;
   background-color: rgba(0, 0, 0, 0.699); }
 
 .nav {
@@ -396,7 +397,16 @@ body {
   font-size: 1.4em;
   font-weight: bolder;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  text-transform: uppercase; }
+
+.header__services:hover, .header__index:hover, .header__catalogue:hover, .header__filosofia:hover, .header__contact:hover, .header__history:hover {
+  background-color: rgba(255, 255, 255, 0.534);
+  border-radius: 1em;
+  transition: .5s; }
+
+#navbarToggleExternalContent {
+  position: absolute; }
 
 .etiquetaHeader {
   grid-area: header;
@@ -438,3 +448,58 @@ body {
 .hist-parrafo {
   font-size: 1.8em;
   font-weight: 600; }
+
+vars * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.navbar-brand > img {
+  width: 20rem; }
+
+.contenedorNav {
+  height: 6rem; }
+
+.bodyCatalogo {
+  max-width: 1920px;
+  max-height: 1080px;
+  font-size: 62.5%;
+  background-color: #2e2e2e;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.header-main {
+  max-height: 100vh; }
+
+.header2 {
+  height: auto; }
+
+#mainNav {
+  height: 1.5rem; }
+
+.navbar-toggler {
+  color: white; }
+
+#headerLink2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase; }
+
+.header__services2:hover, .header__index2:hover, .header__catalogue2:hover, .header__filosofia2:hover, .header__contact2:hover, .header__history2:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 0.2rem;
+  transition: .5s; }
+
+@media screen and (max-width: 767px) {
+  .contenedorNav {
+    height: 12rem; }
+  .bodyCatalogo {
+    font-size: 55.5%; }
+  .navbar-brand > img {
+    width: 15rem; } }

@@ -53,6 +53,7 @@ $fondos:(
 }
 
 .mascara{
+    height: auto;
     background-color: rgba(0, 0, 0, 0.699);
 
 }
@@ -119,8 +120,38 @@ $fondos:(
     font-weight: bolder;
     text-decoration: none;
     list-style: none;
+    text-transform: uppercase;
+
     
 }
+
+.header{
+    &__services:hover{
+        background-color: rgba(255, 255, 255, 0.534);
+        border-radius: 1em;
+        transition: .5s;
+    }
+    &__index:hover{
+        @extend .header__services
+    }
+    &__catalogue:hover{
+        @extend .header__services
+    }
+    &__filosofia:hover{
+        @extend .header__services
+    }
+    &__contact:hover{
+        @extend .header__services
+    }
+    &__history:hover{
+        @extend .header__services
+    }
+}
+
+#navbarToggleExternalContent{
+    position:absolute;
+}
+
 
 .etiquetaHeader{
     grid-area: header;
@@ -153,4 +184,13 @@ $fondos:(
     &-parrafos1{
  
     }
+}
+
+@media screen and (max-width:992px){
+
+    .etiquetaHeader{
+
+    }
+
+
 }
