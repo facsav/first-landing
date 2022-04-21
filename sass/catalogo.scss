@@ -8,6 +8,16 @@ vars
 
 }
 
+.bodyCatalogo{
+    max-width: 1920px;
+    max-height: 1080px;
+    font-size: 62.5%;
+    background-color: rgb(46, 46, 46);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
 .navbar{
     &-brand > img{
         width: 20rem;
@@ -19,16 +29,6 @@ vars
     height: 6rem;
 }
 
-.bodyCatalogo{
-    max-width: 1920px;
-    max-height: 1080px;
-    font-size: 62.5%;
-    background-color: rgb(46, 46, 46);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
-}
 
 .header-main{
     max-height: 100vh;

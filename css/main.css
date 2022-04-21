@@ -455,12 +455,6 @@ vars * {
   text-decoration: none;
   box-sizing: border-box; }
 
-.navbar-brand > img {
-  width: 20rem; }
-
-.contenedorNav {
-  height: 6rem; }
-
 .bodyCatalogo {
   max-width: 1920px;
   max-height: 1080px;
@@ -469,6 +463,12 @@ vars * {
   background-size: cover;
   background-attachment: fixed;
   background-position: center; }
+
+.navbar-brand > img {
+  width: 20rem; }
+
+.contenedorNav {
+  height: 6rem; }
 
 .header-main {
   max-height: 100vh; }
