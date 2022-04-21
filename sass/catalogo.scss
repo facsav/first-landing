@@ -8,6 +8,15 @@ vars
 
 }
 
+// variables
+
+$colorFondo1: rgba(49, 94, 147, 1);
+$colorFondo2: rgb(224, 224, 224);
+$fuente:'Montserrat', sans-serif;
+
+
+
+
 .bodyCatalogo{
     max-width: 1920px;
     max-height: 1080px;
@@ -19,10 +28,24 @@ vars
 
 }
 .navbar{
+    &-nav{
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+    }
     &-brand > img{
         width: 20rem;
     }
 
+}
+
+#navbarDropdownMenuLink{
+    color: black;
+    font-family: $fuente
+}
+
+#estiloNav{
+    color: black;
+    font-family: $fuente
 }
 
 .contenedorNav{
