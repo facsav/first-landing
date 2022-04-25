@@ -14,16 +14,14 @@ $colorFondo2: rgb(224, 224, 224);
 $fuente:'Montserrat', sans-serif;
 
 
+
+
 // General
 
 .bodyCatalogo{
     max-width: 1920px;
     max-height: 1080px;
     font-size: 62.5%;
-
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
 
 }
 
@@ -33,7 +31,7 @@ $fuente:'Montserrat', sans-serif;
     &-nav{
         color: rgb(0, 0, 0);
         font-size: 1rem;
-        width: 100vh;
+        // width: 100vh;
     }
     &-brand > img{
         width: 20rem;
@@ -123,6 +121,8 @@ $fuente:'Montserrat', sans-serif;
     
     }
 
+
+
 }
 
 
@@ -135,39 +135,270 @@ $fuente:'Montserrat', sans-serif;
 .inicioC{
     height: 20rem;
     width: 100%;
-    // background-image: url(..//imagenes/el-taller.jpg);
-    // opacity: 0.9;
-    // border-radius: 0.5rem;
     background-size: cover;
     &__titulo{
         display: flex;
         flex-direction: row;
         justify-content:center;
-        align-self: center;
+        align-self:center;
         &-txt{
             font-style: oblique;
             font-weight: 400;
             font-family: $fuente;
             color: rgb(0, 0, 0);
             justify-content:center;
-            align-self: center;
+            align-items:flex-start;
         }
     }
     &-img{
-        margin-top: 2rem;
+
         width: 40rem;
+        height: 100%;
+        background-image: url(..//imagenes/el-taller.jpg);
+        opacity: 0.9;
+        background-size:cover;
+        background-position:initial;
+        
+        border-radius: 0.5rem;
+         
     }
 }
 
 .marcas{
-    height: 8rem;
+    height: 15rem;
 }
 
-.modelos{
-    height:60rem;
+.catalogo{
+    height:35rem;
 }
 
 .repuestos{
     height: 30rem;
 }
 
+.form{
+    height: 20rem;
+
+}
+
+// marcas
+
+.marcas{
+    &-foto{
+        width: 9.9rem;
+    }
+
+    &-title{
+
+    }
+    &-list{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1400px){
+
+    .marcas{
+        &-foto{
+            width: 7.9rem;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width:1200px){
+
+    .marcas{
+        &-foto{
+            width: 6.9rem;
+        }
+    }
+
+    .bodyCatalogo{
+        max-width: 1920px;
+        max-height: 1080px;
+        font-size: 62.5%;
+    
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    
+    }
+
+
+
+    .card{
+        height: 8rem;
+        width: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width:991px){
+
+    .inicioC{
+
+        &-img{
+            height: 80%;
+        }
+    }
+
+    .marcas{
+        &-foto{
+            width: 5rem;
+        }
+    }
+
+    .catalogo{
+        height:35rem;
+    }
+    
+    .repuestos{
+        height: 35rem;
+    }
+
+    .card-body{
+        height: 20rem;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:767px){
+
+    .inicioC{
+        height: 20rem;
+        &-img{
+            height: 60%;
+        }
+    }
+
+    .marcas{
+        height: 15rem;
+        &-foto{
+            width: 5rem;
+        }
+    }
+
+    .catalogo{
+        height:65rem;
+    }
+    
+    .repuestos{
+        height: 65rem;
+    }
+
+    .card-body{
+        height: 20rem;
+
+    }
+
+
+    
+
+
+
+}
+
+@media screen and (max-width:575px){
+
+    .inicioC{
+        height: 20rem;
+        &-img{
+            height: 60%;
+        }
+    }
+
+    .marcas{
+        height: 15rem;
+        &-foto{
+            width: 5rem;
+        }
+    }
+
+    .catalogo{
+        height:200rem;
+    }
+    
+    .repuestos{
+        height: 200rem;
+    }
+
+    .card{
+        height: 20rem;
+
+    }
+
+
+    
+
+
+
+}
+
+
+
+
+// catalogo madera
+
+.card{
+    height: 28rem;
+}
+
+
+// form
+
+.form{
+    width: 100%;
+    &__form{
+        display: flex;
+        flex-direction: column;
+        &-name{
+            align-self: center;
+
+            height: 2rem;
+            font-size: 1.5em;
+            font-family: $fuente;
+            border: none;
+            border-bottom: 0.2em solid $colorFondo1;
+            width: 20rem;
+            justify-content: center;
+
+        }
+        &-surname{
+            @extend .form__form-name
+
+        }
+        &-mail{
+            @extend .form__form-name
+        }
+        &-question{
+            @extend .form__form-name
+        }
+        &-submit{
+            align-self: center;
+            width: 5rem;
+        }
+    }
+
+}
+// footer
+
+.footer{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    &__rights{
+        color: black;
+        font-family: $fuente;
+    }
+}
