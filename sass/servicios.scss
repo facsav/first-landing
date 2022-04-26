@@ -50,13 +50,6 @@ $fondos:(
 }
 
 
-body{
-    max-width: 1920px;
-    max-height: 1080px;
-    font-size: 62.5%;
-
-}
-
 
 // variables
 
@@ -65,310 +58,42 @@ $colorFondo2: rgb(224, 224, 224);
 $fuente:'Montserrat', sans-serif;
 
 
-// header y logo 
-
-
-
-
-.logo2{
-    height: 7em;
-    
-    display: flex;
-    flex-direction: row;
-    margin: 0.8em 0 0 0.5em;
-    &-title{
-        color: white; font-style: italic; font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        height: 3em;
-    }
-    &__img{
-        width: 9em;
-        height: 5em;
-        &-grafico{
-            width: 100%;
-            height: 100%;
-        }
-    }
+.todosLosServicios{
+    margin-top: 10rem;
+    height: 250 rem;
 }
 
-.header2{
-    display: flex;
-    flex-direction: row;
+
+.inicioS{
+    margin-bottom: 5rem;
+    height: 20rem;
     width: 100%;
-
-}
-
-.etiquetaHeader2{
-    
-    width: 80%;
-    margin-top: 1.5em;
-    margin-right: 1em;
-}
-
-.header2{
-    @include flex (row,center ,wrap );
-    width: 100%;
-    display: flex;
-    flex-direction: row ;
-    flex-wrap: wrap;
-    text-decoration: none;
-    list-style-type: none;
-    justify-content:flex-end;
-}
-
-
-.headerLogoInicio2{
-    width: 100%;
-    background-image: url(../imagenes/taller.jpeg);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 50em;
-}
-
-#headerLink2{
-    color: white;
-    margin-right: 0.8em;    
-    font-family: $fuente;
-    font-size: 1.4em;
-    font-weight: bolder;
-}
-
-.inicio2{
-    position: absolute;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    width: 100%;
-    &-title{
-        font-family: $fuente;
-        color: white;
-        font-size: 3em;
-        font-style: oblique;
-        font-weight: var(--tituGrosor);
-    }
-}
-    
-
-// procesos
-
-.procesos{
     &__titulo{
-        font-family: $fuente;
-        font-size: x-large;
-        color: $colorFondo1;
-        font-weight: 500;
-        font-style: italic;
-        margin: 30px 0 0 0;
-        padding: 20px;    
-    }
-    &__img1{
-        background-color: map-get($fondos, gris);
-        height: 375px;
-        width: 98%;
-        float: right;
-        &-foto{
-            width: 500px;
-            height: 350px;
-            margin: -10px 0 0 -25px; 
-        }
-        &-title{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-self:center;
+        &-txt{
+            font-style: oblique;
+            font-weight: 400;
             font-family: $fuente;
-            font-weight: 400 ;
-            color: $colorFondo1;
-            float: right;
-            margin-right: 400px;
-            margin-top: 15px;
-        }
-        &-info{
-            color: rgb(133, 133, 133);
-            height: 150px;
-            width: 600px;
-            margin: -280px 0 0 600px;
-            font-family: $fuente;
-            font-weight: 300;
-            font-size:18px;
-            text-align: left;
-        
-        }
-        &-btn{
-            display: inline-block;
-            width: 200px;
-            height: 30px;
-            background-color: $colorFondo1; color: white;
-            border: $colorFondo1;
-            border-radius:20px;
-            margin-top: 100px;
-            margin-left: 755px;
-            text-align: center;
-            font-size: 20px;
+            color: rgb(0, 0, 0);
+            justify-content:center;
+            align-items:flex-start;
         }
     }
-    &__img2{
-        background-color: map-get($fondos, grisOscuro);
-        height: 390px;
-        width: 98%;
-        float: left;
-        margin-top: 100px;
+    &-img{
 
-
-        &-foto{
-            float: right;
-            width: 500px;
-            height: 350px;
-            margin: -10px -25px 0 0;
-        }
+        width: 40rem;
+        height: 100%;
+        background-image: url(..//imagenes/foto-pintura.jpg);
+        opacity: 0.9;
+        background-size:cover;
+        background-position:initial;
         
-        &-title{
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400 ;
-            color: #ffffff;
-            float: left;
-        
-            margin-left: 400px;
-            margin-top: 15px;
-        }
-        
-        &-info{
-            color: rgb(255, 255, 255);
-            height: 150px;
-            width: 600px;
-            margin: 15px 0 0 100px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            font-size:18px;
-            text-align: left;
-            float: left;
-        
-        }
-        
-        &-btn{
-            display: inline-block;
-            width: 200px;
-            height: 30px;
-            background-color: rgb(255, 255, 255); color: rgba(49, 94, 147, 1);
-            border: #ffffff;
-            border-radius:20px;
-            margin-top: 120px;
-            margin-left: 350px;
-            text-align: center;
-            font-size: 20px;
-            
-        }
-    }
-    &__img3{
-        background-color: map-get($fondos, gris);
-        height: 375px;
-        width: 98%;
-        float: right;
-        margin-top: 100px;
-        &-foto{
-            width: 500px;
-            height: 350px;
-            margin: -10px 0 0 -25px;
-        }
-        
-        &-title{
-            color: #315e93;
-            float: right;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400 ;
-            margin-right: 400px;
-            margin-top: 15px;
-        }
-        
-        &-info{
-            color: rgb(133, 133, 133);
-            height: 150px;
-            width: 600px;
-            margin: -280px 0 0 600px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            font-size:18px;
-            text-align: left;
-        
-        }
-        
-        &-btn{
-            display: inline-block;
-            width: 200px;
-            height: 30px;
-            background-color: rgba(49, 94, 147, 1); color: white;
-            border: #315e93;
-            border-radius:20px;
-            margin-top: 100px;
-            margin-left: 755px;
-            text-align: center;
-            font-size: 20px;
-            
-        }
-    }
-    &__img4{
-        background-color: map-get($fondos, grisOscuro);
-        height: 390px;
-        width: 98%;
-        float: left;
-        margin-top: 100px;
-        &-foto{
-            float: right;
-            width: 500px;
-            height: 350px;
-            margin: -10px -25px 0 0;
-        }
-        
-        &-title{
-            color: #ffffff;
-            float: left;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400 ;
-            margin-left: 400px;
-            margin-top: 15px;
-        }
-        
-        &-info{
-            color: rgb(255, 255, 255);
-            height: 150px;
-            width: 600px;
-            margin: 30px 0 0 100px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
-            font-size:18px;
-            text-align: left;
-            float: left;
-            
-        }
-        
-        &-btn{
-            display: inline-block;
-        
-            width: 200px;
-            height: 30px;
-            background-color: rgb(255, 255, 255); color: rgba(49, 94, 147, 1);
-            border: #ffffff;
-            border-radius:20px;
-            margin-top: 120px;
-            margin-left: 350px;
-            text-align: center;
-            font-size: 20px;
-        }
+        border-radius: 0.5rem;
+         
     }
 }
-
-// footer
-
-.footer{
-    color: $colorFondo1;
-    width: 100%;
-    height: auto;
-    &__rights{
-        color: white;
-        font-size: 1.5em;
-        font-family: white;
-        margin-left: 1em;
-    }
-}
-
 

@@ -790,7 +790,7 @@ align-content:center;
         "footer footer footer footer footer";
         grid-template-rows: 10vh 30vh 30vh 50em 5vh ;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        background-image: url(../imagenes/foto\ avion.jpg);
+        background-image: url(../imagenes/foto-avion.jpg);
         background-size:cover;
         background-attachment: fixed;
         width: 100%;
@@ -830,7 +830,7 @@ align-content:center;
         "footer footer footer footer footer";
         grid-template-rows: 10vh 30vh 30vh 220em 5vh ;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        background-image: url(../imagenes/foto\ avion.jpg);
+        background-image: url(../imagenes/foto-avion.jpg);
         background-size:cover;
         background-attachment: fixed;
         width: 100%;
@@ -1042,7 +1042,7 @@ align-content:center;
 
 .bodyIndex{
     font-size: 62.5% !important;  
-    background-image: url(../imagenes/foto\ avion.jpg);
+    background-image: url(../imagenes/foto-avion.jpg);
     background-size:cover;
     background-attachment: fixed;
     width: 100%;
@@ -1207,6 +1207,10 @@ padding-top: 12em;
     transition: .5s; }
   
   @media screen and (max-width: 767px) {
+    .certify{
+        height: 45vh;
+    }
+    
     .contenedorNav {
       height: 12rem; }
     .bodyCatalogo {

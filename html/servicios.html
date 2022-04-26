@@ -5,210 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="keywords" content=" Helices, Aviones, Motores, Volar, Arreglar, Reparar, Repuestos">
+    <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
-    <main>
+    
+
+<body class="bodyCatalogo">
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <image class="navbar-brand">
+            <img src="../imagenes/Recurso 2.png" style="width: 20rem;" alt="">
+        </image>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" id="estiloNav" href="../index.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="estiloNav" href="../html/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="estiloNav" href="../html/catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nosotros
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../html/historia.html">Historia</a>
+                    <a class="dropdown-item" href="../html/filosofia.html">Filosofia</a>
+                    <a class="dropdown-item" href="../html/contacto.html">Contacto</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>        
 
 
-        <section class="headerLogoInicio2">
+<main>
 
-            
-            <div class="logo2">  <!-- item 1 -->
-                <picture class="logo2__img">
-                    <img src="../imagenes/logo-blanco.png" alt="logo" class="logo2__img-grafico">         
-                </picture>     
-                <h1 class="logo2-title">
-                    <span style="font-weight: 50; color: white ;">
-                        Hélices
-                    </span>
-                    <span style="font-weight: 900;">
-                        Clerici
-                    </span>
-                </h1> 
-            
-            </div>
+    <div class="container">
 
-        
-
-            <header class="etiquetaHeader2"> 
-                <ul class="header2">
-                    <li class="header2__index2">
-                        <a id="headerLink2" href="../index.html">INICIO</a>
-                    </li>
-                    <li class="header2__services2">
-                        <a id="headerLink2" href="../html/servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="header2__catalogue2">
-                        <a id="headerLink2" href="../html/catalogo.html">CATALOGO</a>
-                    </li>
-                    <li class="header2__filosofia2">
-                        <a id="headerLink2" href="../html/filosofia.html">FILOSOFÍA</a>
-                    </li>
-                    <li class="header2__history2">
-                        <a id="headerLink2" href="../html/historia.html">HISTORIA</a>
-                    </li>
-                    <li class="header2__contact2">
-                        <a id="headerLink2" href="../html/contacto.html">CONTACTO</a>
-                    </li>
-                </ul>                 
-            </header>
-
-        
-
-            <div class="inicio2"> <!--Botones principales-->
-                
-                <title>
-                    mantenimiento de helices
-                </title>
-
-                <h2 class="inicio2-title ">
+        <div class="row inicioS">
+            <title>
+                mantenimiento de helices
+            </title>
+            <div class=" col-xxl-6  col-xl-6 col-lg-6 col-12 col-md-12 col-sm-12 inicioS__titulo">
+                <h1 class="inicioS__titulo-txt  justify-content-center">
                     Servicios
-                </h2>
-            </div>   
-            
-            <div class="inicioServices__div">   
+                </h1>
             </div>
-        </section>      
-            
-            
-            
-        <section class="procesos"> <!-- procesos -->
-            <h2 class="procesos__titulo">
-                Procesos
-            </h2> 
-            <div class="procesos__img1 ">
+
+            <div class=" col-xxl-6  col-xl-6 col-lg-6 col-12 col-md-12 col-sm-12 inicioS-img ">
                 
-                <img class="procesos__img1-foto" src="../imagenes/inspeccion.jpeg" alt="Imagen 7">                   
-                <h2 class="procesos__img1-title">Inspecciones</h2>
-                
-                <p class="procesos__img1-info">
-                    
-                    Esta área de la inspección requiere personal muy entrenado en el uso de herramientas de medición, y es realizada exclusivamente por personal técnico aeronáutico con gran experiencia.
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="row todosLosServicios">
+            <div class="card mb-5">
+                <img src="../imagenes/inspeccion.jpeg" style="width: 100%; height: 70%;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Inspecciones</h5>
+                  <p class="card-text">                Esta área de la inspección requiere personal muy entrenado en el uso de herramientas de medición, y es realizada exclusivamente por personal técnico aeronáutico con gran experiencia.
                     Tenemos para tal fin herramientas digitales de última generación.
                     Contamos para las mediciones especiales con un mármol Starret (USA) y una mesa de mediciones Crown (England), además de un conjunto de herramientas de medición, Starret, Mitutoyo, Berco, etc. Todas ellas bajo un programa de calibración permanente.
-                    Las palas demás son inspeccionadas por alturas, ángulos, y alineación.
-                </p>
-                <a class="procesos__img1-btn" href="../html/servicios.html">Mas informacion</a>
-                
-            </div>
-            
-            <div class="procesos__img2 color-grisOscuro">
-                
-                <img class="procesos__img2-foto" src="../imagenes/pintu.jpeg" alt="Imagen 8">
-                <h2 class="procesos__img2-title">
-                    Pintura
-                </h2>
-                
-                
-                <p class="procesos__img2-info">
-                    Debido a la importancia de la pintura en el mantenimiento de hélices, la aplicación de la misma debe hacerse en condiciones ideales de ambiente, temperatura y humedad. Una ambiente libre de polvo, con la humedad y la temperatura adecuadas, nos asegura la calidad en el pintado.
-                    Esto, sumado a la utilización de los productos recomendados por el fabricante (kits Sherwin Willians importadas de USA) asegura una protección efectiva contra la corrosión, la cual es altamente perjudicial para las hélices.
-                    Con el fin de crear condiciones ideales para la aplicación de pinturas, hemos adquirido una cabina, lo que nos permite realizar nuestras tareas de pintura en condiciones óptimas, tanto para las hélices como para nuestro personal, ya que el sistema de aspiración evita la inhalación de vapores nocivos para la salud.                </p> 
-                    <a class="procesos__img2-btn" href="../html/servicios.html">Mas informacion</a>                
-            </div>
-                
-            <div class="procesos__img3">
-                <h2 class="procesos__img3-title">Balanceo</h2>
-                <img class="procesos__img3-foto" src="../imagenes/balanceo.jpeg" alt="Imagen 9">
-                
-                <p class="procesos__img3-info">
-                    Esta importante fase del mantenimiento de hélices constituye un factor de preocupación en muchos casos ya que está ligada a la seguridad de las mismas.
-                    En efecto, una hélice mal balanceada genera vibraciones, que se transmiten a toda estructura del avión, provocando roturas de capots, spinners, etc., y puede llegar a provocar roturas hasta en la propia hélice, además de una sensación de incomodidad para quien vuela.                </p>   
-                    <a class="procesos__img3-btn" href="../html/servicios.html">Mas informacion</a>           
-            </div>
-                    
-            <div class="procesos__img4">
-                <h2 class="procesos__img4-title">Ensayos no destructivos</h2>
-                <img class="procesos__img4-foto" src="../imagenes/ndt.jpeg" alt="Imagen 10">
-                
-                <p class="procesos__img4-info">
-                    Esta área de la inspección, es la que requiere mayor especialización del personal, y mayor inversión en equipamiento. Diego Clerici asistió durante dos años a Aerospace Inspecction Training en Inglaterra para la obtención de sus niveles 2 en cuatro técnicas, Partículas magnetizables, Líquidos penetrantes, Eddy Current y ultrasonidos.
-                    Realizó también los exámenes en el INTI, para la obtención de los niveles, en el ámbito nacional. Sebastián Clerici, también obtuvo el nivel 2 para las cuatro técnicas en USA.                </p> 
-                    <a class="procesos__img4-btn" href="../html/servicios.html">Mas informacion</a>
-            </div>
-        </section>
-                        
-                        
-                        
-                        
-                        
-                        <!-- <section class="servicesGral"> 
-                            <div class="servicesGral__left">
-                                <h2 class="servicesGral__left-title">
-                                    Servicios
-                                </h2>
-                                <img class="servicesGral__left-img" src="../imagenes/balanceo.jpeg" alt="Imagenes desplazando">    
-                            </div>
-                            <div class="servicesGral__right">
-                                <h3 class="servicesGral__right-title">
-                                    Servicios
-                                </h3>
-                                <ul class="servicesGral__right__list">
-                        <li class="servicesGral__right__list-content1">
-                            Cálculo, diseño, y fabricación de hélices de materiales compuestos, de paso fijo, y variable.
-                        </li>
-                        <li class="servicesGral__right__list-content2" >
-                            Reparación, mantenimiento, y servicio de hélices de paso fijo y variable, para aviones.
-                        </li>
-                        <li class="servicesGral__right__list-content3">
-                            Venta de hélices nuevas y usadas overhauleadas.                   
-                        </li>
-                        <li class="servicesGral__right__list-content4">
-                            Venta de componentes de hélices:Palas, cubos, bulkheads, spinners, cilindros, pistones etc.
-                        </li>
-                        <li class="servicesGral__right__list-content5" >
-                            Procesos de cadmio y deshidrogenado para materiales ferrosos.
-                        </li>
-                        <li class="servicesGral__right__list-content6">
-                            Procesos de anodizado, para aluminio.                  
-                        </li>
-                        <li class="servicesGral__right__list-content7">
-                            Ensayos No-Destructivos de materiales aeronáuticos, Partículas Magnéticas, Líquidos Penetrantes, Eddy Current, Ultrasonido, todos los procesos son realizados en nuestro laboratorio propio, con personal, de la casa formado en Inglaterra, y Estados Unidos.
-                        </li>
-                        <li class="servicesGral__right__list-content8">
-                            Balanceo estático: estamos equipados, con dos balanceadores de suspensión, Marvell uno para hélices con flange y el otro para hélices con eje pasante (cigüeñal estriado) Lo cuál hace muy preciso, nuestro balanceo.
-                            Balanceo dinámico: Disponemos de un equipo Chadwick para este tipo de balanceo.     
-                        </li>
-                        <li class="servicesGral__right__list-content9">
-                            Reparación, venta y overhaul de Governor     
-                        </li>
-                    </ul>    
+                    Las palas demás son inspeccionadas por alturas, ángulos, y alineación</p>
+
                 </div>
-                
-            </section>
-            
-            <section class="servicesBajo">
-                
-                <div class="servicesBajo__box">
-                    <p class="servicesBajo__box-info">
-                        En Hélices Clerici nuestro orgullo ha sido siempre nuestra capacidad de adaptación a los nuevos desafíos.
-                        
-                        Desde la década del cuarenta, cuando nos convertimos en el primer taller del país en construir hélices de madera, hasta el presente, en el que nuestra oferta incluye:
-                        
-                        Servicios para toda hélice de aviación general y transporte.
-                        
-                        Servicio de NDT para todo tipo de estructura aeronáutica.
-                        
-                        Hemos mantenido viva la política de capacitación e inversión como pilar de nuestro progreso, para estar siempre a la vanguardia en todos los rubros abarcados. Hoy en día nuestra oferta de servicios abarca desde una simple hélice de paso fijo de un entrenador hasta las más modernas hélices de material compuesto de grandes transportes turbohélices de hasta 5000SHP.
-                        
-                        Esta diversidad de oferta nos ha posicionado como la opción elegida por muchos operadores tanto civiles como militares de la región.
+            </div>
+            <div class="card mb-3">
+                <img src="../imagenes/pintu.jpeg" style="width: 100%; height: 70%;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pintura</h5>
+                  <p class="card-text">                Debido a la importancia de la pintura en el mantenimiento de hélices, la aplicación de la misma debe hacerse en condiciones ideales de ambiente, temperatura y humedad. Una ambiente libre de polvo, con la humedad y la temperatura adecuadas, nos asegura la calidad en el pintado.
+                    Esto, sumado a la utilización de los productos recomendados por el fabricante (kits Sherwin Willians importadas de USA) asegura una protección efectiva contra la corrosión.</p>
+
+                </div>
+            </div>
+            <div class="card mb-5">
+                <img src="../imagenes/balanceo.jpeg" style="width: 100%; height: 70%;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Balanceos</h5>
+                  <p class="card-text">                               Esta importante fase del mantenimiento de hélices constituye un factor de preocupación en muchos casos ya que está ligada a la seguridad de las mismas.
+                    En efecto, una hélice mal balanceada genera vibraciones, que se transmiten a toda estructura del avión, provocando roturas de capots, spinners, etc., y puede llegar a provocar roturas hasta en la propia hélice, además de una sensación de incomodidad para quien vuela.</p>
+
+                </div>
+            </div>
+            <div class="card mb-5">
+                <img src="../imagenes/ndt.jpeg" style="width: 100%; height: 70%;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ensayos no destructivos</h5>
+                  <p class="card-text">Esta área de la inspección, es la que requiere mayor especialización del personal, y mayor inversión en equipamiento. Diego Clerici asistió durante dos años a Aerospace Inspecction Training en Inglaterra para la obtención de sus niveles 2 en cuatro técnicas, Partículas magnetizables, Líquidos penetrantes, Eddy Current y ultrasonidos.
+                    Realizó también los exámenes en el INTI, para la obtención de los niveles, en el ámbito nacional. Sebastián Clerici, también obtuvo el nivel 2 para las cuatro técnicas en USA.</p>
+
+                </div>
+            </div>
+
+            <div class="row footer">
+                <section class="d-flex justify-content-center"> 
+                    <p class="footer__rights d-flex justify-content-center">
+                        Copyright 2012 - 2022 Hélices Clerici | Todos los derechos reservados | Hélices Clerici |.
                     </p>
-                    
-                    <img class="servicesBajo__box-img" src="../imagenes/transporte.jpg" alt="imagenes desplzanado 2">    
-                    
-                </div>
-            </section> -->
+                </section>
+            </div>
+        </div>
             
-        <section class="footer"> <!-- footer -->
-            <p class="footer__rights" style="color: #315e93; font-family: 'Montserrat', sans-serif;">
-                Copyright 2012 - 2022 Hélices Clerici | Todos los derechos reservados | Hélices Clerici | Drops design.
-            </p>
-        </section>   
-    </main>
-    
+
+        </div>
+
+    </div>
+
+
         
-    </body>
-    </html>
+        
+        
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

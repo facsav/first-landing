@@ -17,260 +17,35 @@
 .color-blanco {
   background-color: white; }
 
-body {
-  max-width: 1920px;
-  max-height: 1080px;
-  font-size: 62.5%; }
+.todosLosServicios {
+  margin-top: 10rem;
+  height: 250 rem; }
 
-.logo2 {
-  height: 7em;
-  display: flex;
-  flex-direction: row;
-  margin: 0.8em 0 0 0.5em; }
-  .logo2-title {
-    color: white;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    height: 3em; }
-  .logo2__img {
-    width: 9em;
-    height: 5em; }
-    .logo2__img-grafico {
-      width: 100%;
-      height: 100%; }
-
-.header2 {
-  display: flex;
-  flex-direction: row;
-  width: 100%; }
-
-.etiquetaHeader2 {
-  width: 80%;
-  margin-top: 1.5em;
-  margin-right: 1em; }
-
-.header2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+.inicioS {
+  margin-bottom: 5rem;
+  height: 20rem;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-decoration: none;
-  list-style-type: none;
-  justify-content: flex-end; }
-
-.headerLogoInicio2 {
-  width: 100%;
-  background-image: url(../imagenes/taller.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 50em; }
-
-#headerLink2 {
-  color: white;
-  margin-right: 0.8em;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
-  font-weight: bolder; }
-
-.inicio2 {
-  position: absolute;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-  width: 100%; }
-  .inicio2-title {
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    font-size: 3em;
-    font-style: oblique;
-    font-weight: var(--tituGrosor); }
-
-.procesos__titulo {
-  font-family: "Montserrat", sans-serif;
-  font-size: x-large;
-  color: #315e93;
-  font-weight: 500;
-  font-style: italic;
-  margin: 30px 0 0 0;
-  padding: 20px; }
-
-.procesos__img1 {
-  background-color: #e0e0e0;
-  height: 375px;
-  width: 98%;
-  float: right; }
-  .procesos__img1-foto {
-    width: 500px;
-    height: 350px;
-    margin: -10px 0 0 -25px; }
-  .procesos__img1-title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    color: #315e93;
-    float: right;
-    margin-right: 400px;
-    margin-top: 15px; }
-  .procesos__img1-info {
-    color: #858585;
-    height: 150px;
-    width: 600px;
-    margin: -280px 0 0 600px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: left; }
-  .procesos__img1-btn {
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: #315e93;
-    color: white;
-    border: #315e93;
-    border-radius: 20px;
-    margin-top: 100px;
-    margin-left: 755px;
-    text-align: center;
-    font-size: 20px; }
-
-.procesos__img2 {
-  background-color: #535353;
-  height: 390px;
-  width: 98%;
-  float: left;
-  margin-top: 100px; }
-  .procesos__img2-foto {
-    float: right;
-    width: 500px;
-    height: 350px;
-    margin: -10px -25px 0 0; }
-  .procesos__img2-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    float: left;
-    margin-left: 400px;
-    margin-top: 15px; }
-  .procesos__img2-info {
-    color: white;
-    height: 150px;
-    width: 600px;
-    margin: 15px 0 0 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: left;
-    float: left; }
-  .procesos__img2-btn {
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: white;
-    color: #315e93;
-    border: #ffffff;
-    border-radius: 20px;
-    margin-top: 120px;
-    margin-left: 350px;
-    text-align: center;
-    font-size: 20px; }
-
-.procesos__img3 {
-  background-color: #e0e0e0;
-  height: 375px;
-  width: 98%;
-  float: right;
-  margin-top: 100px; }
-  .procesos__img3-foto {
-    width: 500px;
-    height: 350px;
-    margin: -10px 0 0 -25px; }
-  .procesos__img3-title {
-    color: #315e93;
-    float: right;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-right: 400px;
-    margin-top: 15px; }
-  .procesos__img3-info {
-    color: #858585;
-    height: 150px;
-    width: 600px;
-    margin: -280px 0 0 600px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: left; }
-  .procesos__img3-btn {
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: #315e93;
-    color: white;
-    border: #315e93;
-    border-radius: 20px;
-    margin-top: 100px;
-    margin-left: 755px;
-    text-align: center;
-    font-size: 20px; }
-
-.procesos__img4 {
-  background-color: #535353;
-  height: 390px;
-  width: 98%;
-  float: left;
-  margin-top: 100px; }
-  .procesos__img4-foto {
-    float: right;
-    width: 500px;
-    height: 350px;
-    margin: -10px -25px 0 0; }
-  .procesos__img4-title {
-    color: #ffffff;
-    float: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    margin-left: 400px;
-    margin-top: 15px; }
-  .procesos__img4-info {
-    color: white;
-    height: 150px;
-    width: 600px;
-    margin: 30px 0 0 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: left;
-    float: left; }
-  .procesos__img4-btn {
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: white;
-    color: #315e93;
-    border: #ffffff;
-    border-radius: 20px;
-    margin-top: 120px;
-    margin-left: 350px;
-    text-align: center;
-    font-size: 20px; }
-
-.footer {
-  color: #315e93;
-  width: 100%;
-  height: auto; }
-  .footer__rights {
-    color: white;
-    font-size: 1.5em;
-    font-family: white;
-    margin-left: 1em; }
+  background-size: cover; }
+  .inicioS__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center; }
+    .inicioS__titulo-txt {
+      font-style: oblique;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      color: black;
+      justify-content: center;
+      align-items: flex-start; }
+  .inicioS-img {
+    width: 40rem;
+    height: 100%;
+    background-image: url(..//imagenes/foto-pintura.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-position: initial;
+    border-radius: 0.5rem; }
 
 * {
   margin: 0;
@@ -353,30 +128,13 @@ body {
 
 .mascara {
   height: auto;
-  background-color: rgba(0, 0, 0, 0.699); }
+  background-color: rgba(0, 0, 0, 0.699);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
 
 .nav {
   height: 20vh; }
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  height: 3vh; }
-  .logo-title {
-    color: white;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    height: 3em;
-    margin-top: 0.2em; }
-  .logo__container {
-    width: 9em;
-    height: 5em; }
-    .logo__container-grafico {
-      width: 100%;
-      height: 100%; }
 
 .header {
   display: flex;
@@ -390,30 +148,15 @@ body {
   .inicio__txt {
     font-size: 1.9em; }
 
-#headerLink {
-  color: white;
-  margin-right: 0.8em;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
-  font-weight: bolder;
-  text-decoration: none;
-  list-style: none;
-  text-transform: uppercase; }
-
-.header__services:hover, .header__index:hover, .header__catalogue:hover, .header__filosofia:hover, .header__contact:hover, .header__history:hover {
-  background-color: rgba(255, 255, 255, 0.534);
-  border-radius: 1em;
-  transition: .5s; }
-
-#navbarToggleExternalContent {
-  position: absolute; }
-
 .etiquetaHeader {
   grid-area: header;
   align-self: flex-start;
   margin-top: 1.5em;
   margin-right: 1em;
   text-decoration: none; }
+
+.fondo {
+  height: 82vh; }
 
 .contactoInicio {
   font-family: "Montserrat", sans-serif;
@@ -425,6 +168,12 @@ body {
   color: white;
   height: 5vh;
   font-size: 1.2em; }
+
+@media screen and (max-width: 767px) {
+  .contenedorNav {
+    width: 3rem !important; }
+  .nav {
+    height: 10vh; } }
 
 * {
   margin: 0;
@@ -531,6 +280,7 @@ body {
       align-items: flex-start; }
   .inicioC-img {
     width: 40rem;
+    padding: 0%;
     height: 100%;
     background-image: url(..//imagenes/el-taller.jpg);
     opacity: 0.9;
