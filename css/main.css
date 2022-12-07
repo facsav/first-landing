@@ -47,6 +47,13 @@
     background-position: initial;
     border-radius: 0.5rem; }
 
+.card {
+  height: 50rem !important; }
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: auto !important; } }
+
 * {
   margin: 0;
   padding: 0;
